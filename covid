@@ -1,0 +1,18 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+#import maltpotlib.pyplot as plt
+from matplotlib import style 
+style.use('ggplot')
+%matplotlib inline
+import plotly
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.offline as pyo
+import cufflinks as cf
+from plotly.offline import download_plotlyjs,init_notebook_mode,plot,iplot
+plt.rcParams['figure.figsize']=25,12
+import folium
+pyo.init_notebook_mode(connected=True)
+cf.go_offline()
+import warnings
+warnings.filterwarnings('ignore')
